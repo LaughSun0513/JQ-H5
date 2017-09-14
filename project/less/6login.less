@@ -1,0 +1,209 @@
+*{
+    margin:0;padding:0
+}
+ul{
+    list-style: none;
+}
+.pos(r){
+    position:relative;
+}
+.pos(a){
+   position: absolute; 
+}
+.header{
+   width:940px;
+   height:57px;
+   padding:53px 30px 19px;
+   margin:0 auto;
+   .top{
+       width:960px;
+       height:50px;
+       .pos(r);
+       img{
+           .pos(a);
+           left:0;top:0;
+       }
+       a{
+           position:absolute;
+           right: 0;bottom:0;
+           color:#007bc7;
+           text-decoration: none;
+           font-size:12px;
+       }
+
+   }
+}
+.main{
+    width:998px;
+    height:413px;
+    margin:0 auto;
+    background: url("../images/bg_register.png") no-repeat center;
+    margin-bottom: 48px;
+    .pos(r);
+    
+    .login_box{
+        width:324px;
+        height:380px;
+        .pos(a);
+        bottom:20px;
+        right:20px;
+        
+        .login_tab{
+            .pos(a);
+            width:324px;
+            height:41px;
+            border-top:1px #ccc solid;
+            border-left:1px #ccc solid;
+
+            overflow: hidden;
+            li{
+                float: left;
+                width:161px;
+                height:40px; 
+                line-height: 40px;
+                border-right:1px #ccc solid;
+                text-align: center;
+            }
+        }
+        .login_message{
+            .pos(a);
+            bottom:0;
+            width:322px;
+            height:310px;
+            padding:20px 0 10px;
+            border:1px #ccc solid;
+            border-top:none;
+            background: #fff;
+
+            p{
+                text-align: center;
+                font-size:14px;
+                height:22px;
+                line-height: 22px;
+                margin-bottom: 20px;
+                label{
+                    margin:0 20px;
+
+                    input{
+                        margin-right: 5px;
+                       
+                    }
+                }
+            }
+             .Inter_user{
+                 height:50px;
+                 .pos(r);
+                 z-index: 998;
+                
+                .reg_box5{
+                    .pos(a);
+                    width:294px;
+                    height:20px;
+                    line-height: 20px;
+                    background: #ffebec;
+                    color: #e6393d;
+                    border:1px #ffbdbf solid;
+                    top:48px;
+                    text-align: center;
+                    z-index: 999;      
+                }
+                 .reg_box6{
+                    .pos(a);
+                    width:294px;
+                    height:20px;
+                    line-height: 20px;
+                    background: #ffebec;
+                    color: #e6393d;
+                    border:1px #ffbdbf solid;
+                    top:48px;
+                    text-align: center;
+                    z-index: 999;      
+                }
+            }
+            .alert_box{
+                width:275px;
+                height:50px;
+                margin:0 auto;
+                overflow: hidden;
+                padding:10px 0 10px 26px;
+               
+                div{
+                    float: left;
+                    width:84px;
+                    height:36px;
+                    line-height: 38px;
+                    background: #f1f1f1;
+                    text-align: center;
+                    border:1px #ccc solid;
+                    border-right:none;
+                }
+                input{
+                    width:168px;
+                    height:26px;
+                    padding:5px 10px;
+                    border:1px #ccc solid;
+                    border-left:none;
+                }
+             
+            }
+           .dx{
+                    input{
+                        width:80px;
+                        height:26px;
+                        padding:5px 10px;
+                       }
+              }
+            .login_btn{
+                width:265px;
+                height:38px;
+                padding:1px 6px;
+                margin:10px 0 0 24px;
+                background:#1796dd;
+                color: #fff;
+                text-align: center;
+                line-height:38px;
+                border:none;
+                border-radius: 3px;
+                margin-top:40px;
+            }
+            .jz{
+              
+                float: right;
+                height:22px;
+                line-height: 22px;
+                text-align: right;
+                font-size: 12px;
+                margin-top: 10px;
+                margin-right:10px;
+                input{  
+                    float: left;
+                    margin-top:0px; 
+                    height:22px;
+                    line-height: 22px;
+                    margin-right:3px;
+                    span{
+                        display:block;
+                        margin-bottom:3px;
+                    }
+                }
+                a{
+                    color:#007bc7;
+                    height:20px;
+                    line-height: 20px;
+                    text-decoration: none;
+                }
+            }
+
+        }
+    }
+}
+.bg{background:#fff;}
+.login_footer{
+    width:1000px;
+    height: 94px;
+    padding:20px 0 0 0;
+    border-top:1px #dadada solid;
+    text-align: center;
+    margin:0 auto;
+}
+

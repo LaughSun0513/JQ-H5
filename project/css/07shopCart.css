@@ -1,0 +1,305 @@
+.shopCart_nav {
+  height: 44px;
+  background: #eee;
+  overflow: hidden;
+}
+.shopCart_nav li {
+  width: 199px;
+  height: 44px;
+  text-align: center;
+  line-height: 44px;
+  color: #666;
+  border-right: 1px #fff solid;
+  float: left;
+}
+.shopCart_nav li a {
+  display: inline-block;
+  text-align: center;
+  border-top: 2px solid #e4e4e4;
+}
+.shopCart_nav li:hover {
+  cursor: pointer;
+  color: #0085d0;
+  background: #f3f3f3;
+}
+.shop_title {
+  height: 20px;
+  padding: 10px 0;
+  font-size: 13px;
+}
+#container {
+  height: 450px;
+  padding: 0 30px 0 410px;
+}
+#box {
+  width: 342px;
+  height: 342px;
+  padding: 5px;
+  border: 1px #ccc solid;
+  position: relative;
+  top: 0;
+  left: -300px;
+}
+#small {
+  width: 340px;
+  height: 340px;
+  position: absolute;
+  border: 1px #ccc solid;
+}
+#small img {
+  width: 340px;
+  height: 340px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#mask {
+  width: 153px;
+  height: 153px;
+  background: red;
+  opacity: .6;
+  position: absolute;
+  left: 0;
+  top: 0;
+  cursor: move;
+}
+#big {
+  width: 360px;
+  height: 360px;
+  border: 1px #ccc solid;
+  position: absolute;
+  left: 370px;
+  overflow: hidden;
+  z-index: 999;
+}
+#big img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#bottom {
+  width: 360px;
+  height: 55px;
+  position: relative;
+  top: 360px;
+  left: -13px;
+  overflow: hidden;
+}
+#bottom .bottom_img {
+  width: 373px;
+  position: absolute;
+  top: 0;
+  left: 28px;
+  padding: 0 5px;
+}
+#bottom .bottom_img li {
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+  border: 1px #ccc solid;
+}
+#bottom .bottom_img li img {
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+#bottom .bottom_img li .li_active {
+  border: 1px #f00 solid;
+}
+#bottom .bottom_left {
+  position: absolute;
+  width: 17px;
+  height: 55px;
+  background: url("../images/zy.png") no-repeat -17px;
+  margin-left: 343px;
+  margin-top: -1px;
+}
+#bottom .bottom_right {
+  position: absolute;
+  width: 17px;
+  height: 55px;
+  background: url("../images/zy.png") no-repeat -68px;
+  margin-left: 0px;
+  margin-top: -1px;
+}
+#shop_messages {
+  width: 760px;
+  position: relative;
+  top: -362px;
+  left: 110px;
+  overflow: hidden;
+}
+#shop_messages h1 {
+  width: 736px;
+  height: 54px;
+  padding: 0 12px 5px;
+  border-bottom: 1px #ccc dotted;
+  margin-bottom: 15px;
+  font-family: arial, "microsoft yahei";
+  line-height: 27px;
+  color: #666;
+  font-size: 18px;
+}
+#shop_messages h1 span {
+  display: block;
+  height: 20px;
+  color: #ed2668;
+  font-weight: normal;
+}
+#shop_messages dl {
+  float: left;
+  width: 664px;
+  height: 35px;
+  line-height: 35px;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+#shop_messages dl dt {
+  width: 86px;
+  float: left;
+  text-align: right;
+  color: #707070;
+  margin-right: 10px;
+  font-size: 12px;
+}
+#shop_messages dl dd {
+  float: left;
+  height: 35px;
+  font-size: 12px;
+  overflow: hidden;
+}
+#shop_messages dl dd a {
+  float: left;
+  width: 85px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  margin-right: 10px;
+  border: 2px #ccc solid;
+}
+#shop_messages dl dd .a_hover {
+  border: 2px #ed2668 solid;
+  background: url("../images/select.gif") no-repeat right bottom;
+}
+#shop_messages dl dd button {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+#shop_messages dl dd input {
+  width: 24px;
+  height: 15px;
+  padding: 4px;
+  border: 1px #ccc solid;
+  text-align: center;
+  line-height: 15px;
+}
+#shop_messages dl dd img {
+  float: left;
+  margin-top: 7px;
+  margin-right: 5px;
+}
+#shop_messages dl div {
+  float: left;
+  width: 110px;
+  height: 33px;
+  line-height: 33px;
+  text-align: center;
+  border: 1px #ffa7c4 solid;
+  color: #ed2668;
+  background: #ffdbe7;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+#shop_messages dl .add {
+  width: 120px;
+  background: #eb2668;
+}
+#shop_messages dl .add img {
+  float: left;
+  margin-top: 8px;
+  margin-left: 5px;
+}
+#shop_messages dl .add span {
+  float: left;
+  color: #fff;
+}
+#shop_introduce {
+  padding: 20px 0;
+}
+#shop_introduce .s_left {
+  float: left;
+  width: 198px;
+  height: 33px;
+  padding: 0 10px;
+  border: 1px #ccc solid;
+  margin: 0 20px;
+}
+#shop_introduce .s_right {
+  float: left;
+  width: 948px;
+  height: auto;
+  border: 1px #ccc solid;
+  overflow: hidden;
+}
+#shop_introduce .s_right .s_right_top {
+  height: 42px;
+  background: #f4f4f4;
+  position: relative;
+}
+#shop_introduce .s_right .s_right_top li {
+  float: left;
+  height: 41px;
+  overflow: hidden;
+  position: relative;
+}
+#shop_introduce .s_right .s_right_top li a {
+  float: left;
+  width: 114px;
+  height: 42px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 42px;
+}
+#shop_introduce .s_right .s_right_top .a_hover2 {
+  height: 41px;
+  line-height: 41px;
+  background: #fff;
+  border-top: 1px #0085d0 solid;
+}
+#shop_introduce .s_right div {
+  margin-left: 79px;
+}
+.float_tab {
+  width: 100%;
+  height: 42px;
+  position: absolute;
+  background: #f4f4f4;
+  z-index: 999;
+  display: none;
+}
+.float_tab ul {
+  position: absolute;
+  background: #f4f4f4;
+  left: 261px;
+}
+.float_tab ul li {
+  float: left;
+  height: 41px;
+  overflow: hidden;
+}
+.float_tab ul li a {
+  float: left;
+  width: 114px;
+  height: 42px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 42px;
+}
+.float_tab .li_hover {
+  height: 41px;
+  line-height: 41px;
+  background: #fff;
+  border-top: 1px #0085d0 solid;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/01header.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/footer.css"/>
+	</head>
+	<style type="text/css">
+		.shopCart_nav {
+		  height: 44px;
+		  background: #eee;
+		  overflow: hidden;
+		}
+		.shopCart_nav li {
+		  width: 199px;
+		  height: 44px;
+		  text-align: center;
+		  line-height: 44px;
+		  color: #666;
+		  border-right: 1px #fff solid;
+		  float: left;
+		}
+		.shopCart_nav li a {
+		  display: inline-block;
+		  text-align: center;
+		  border-top: 2px solid #e4e4e4;
+		}
+		.shopCart_nav li:hover {
+		  cursor: pointer;
+		  color: #0085d0;
+		  background: #f3f3f3;
+		}
+		.empty_main{
+			width:1198px;
+			height:200px;
+			border:1px #ccc solid;
+			margin:0 auto;
+		}
+		.empty_main div{
+			width:345px;
+			height:75px;
+			margin:60px 399px 0;
+			font-size: 14px;
+		}
+		.empty_main div img{
+			float: left;
+			margin-top: 8px;
+		}
+		.empty_main div p{
+			float: left;
+			width:260px;
+			height:25px;
+			margin-top: 20px;
+			margin-left:15px;
+		}
+		.empty_main div a{
+			float: left;
+			margin-top: -5px;
+			margin-left: 15px;
+			color: #007bb9;
+		}
+		.empty_main div a:hover{
+			text-decoration: underline;
+		}
+	</style>
+	<body>
+		<div id="header"></div>
+		<div>
+			<ul class="shopCart_nav layout">
+				<li style="background:#0085D0;color:#fff;">商品服务分类 <img src="../images/jt.png" alt="" /></li>
+				<li>首页</li>
+				<li style="height:42px;border-top:2px #1796DD solid">移动商城</li>
+				<li>个人中心</li>
+				<li>合约机</li>
+				<li>服务与支持</li>
+			</ul>
+		</div>
+		<div class="empty_main">
+			<div>
+				<img src="../images/empty.png" alt="" />
+				<p>购物车空空的哦~，去看看心仪的商品吧~</p>
+				<a href="06shopCart_list.html">去购物></a>
+			</div>
+		</div>
+		<div class="footer"></div>
+	</body>
+</html>
+<script src="../js/jquery-1.11.1.min.js"></script>
+<script src="../js/07shopCart.js"></script>
+<script>
+	$("#header").load("header.html",function(){
+		$(".ad").remove();
+		$(".nav").remove();
+	})
+	$(".footer").load("footer.html")
+</script>

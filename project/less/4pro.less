@@ -1,0 +1,114 @@
+.pos(r){
+    position:relative;
+}
+.pos(a){
+    position:absolute
+}
+.h1(@c:#333){
+       font-size:18px;
+       color:@c;
+       margin-left:20px;
+       padding-top: 8px;
+}
+.h2(@co:#666){
+       font-size:14px;
+       color:@co;
+       margin:4px 0 4px 20px;;
+}
+.h3{
+   color:rgb(0,133,208);
+   font-size:12px;
+   padding:0 0 0 20px;
+   margin:0; 
+   height:20px;
+}
+#pink{
+      background: #efefef;
+      h1{.h1(deeppink)}
+    }
+.pro{
+    height:430px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    .pro_title{
+        width:1160px;
+        height:48px;
+        padding:0 20px;
+        border:1px #ccc solid;
+        span{
+            float: left;
+            width:45px;
+            height:48px;
+            line-height: 48px;
+            font-size:15px;
+            color:#0085d0;
+            font-weight: bold;
+        }
+        a{
+           float:right;
+           width:67px;
+           height:48px; 
+           line-height: 48px;
+           color:#ccc;
+           font-size:14px;
+        }
+    }
+    .pro_img{
+        height:380px;
+        overflow: hidden;
+         
+        .pro_box{
+            width:298px;
+            height:377px;
+            border:1px #ccc solid;
+            float: left;
+           
+            ul{
+                width:298px;
+                height:188px;
+
+               h1{.h1;}
+               h2{.h2;}
+                a{
+                    display: block;
+                    width:296px;
+                    height:128px;
+                    img{
+                        float:right;
+                        height:128px;
+                    }
+
+                }
+            }
+           
+        }
+ }
+    .h{
+            h2{.h2;}
+            h3{.h3;}
+            a{
+                display: block;
+                width:298px;
+                overflow: hidden;
+                span{  
+                    float: left;
+                    height:28px;
+                    color:#999;
+                    font-size:11px;
+                    padding:10px 0 0 0;
+                    margin-left:20px;
+                    text-decoration: line-through;
+                    }
+            }
+        }
+    .a{
+        height:272px;
+        width:298px;
+        padding-top:20px;
+        img{
+            float: right;
+        }
+
+    }
+
+}

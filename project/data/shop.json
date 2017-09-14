@@ -1,0 +1,102 @@
+{
+	"type01":{
+		"name":"小米手机",
+		"list":[
+			{
+			"id":"sho01",
+			"name":"小米红米Note4X 3GB+32GB 公开版4G手机5.5英寸高清屏 骁龙八核处理器",
+			"src":"data_images/01.png",
+			"price":"999"
+			},
+			{
+			"id":"sho02",
+			"name":"小米 红米Note4X 4GB+64GB【4G+手机节】购机赠送6GB全国通用流量",
+			"src":"data_images/02.png",
+			"price":"1079"
+			},
+			{
+			"id":"sho03",
+			"name":"小米6 变焦双摄 64GB/128G 公开版4G手机后置双摄像头 骁龙835处理器 新增陶瓷尊享版",
+			"src":"data_images/03.png",
+			"price":"2799"
+			},
+			{
+			"id":"sho04",
+			"name":"小米 红米4X 32GB/64GB 公开版4G手机5.0英寸高清屏 4100毫安大电池 指纹识别",
+			"src":"data_images/04.png",
+			"price":"889"
+			},
+			{
+			"id":"sho05",
+			"name":"小米 红米4X 2GB+16GB 公开版4G手机5.0英寸高清屏 4100毫安大电池 指纹识别",
+			"src":"data_images/05.png",
+			"price":"699"
+			},
+			{
+			"id":"sho06",
+			"name":"小米Max2 4GB+64GB 公开版4G智能手机6.44英寸大屏 大电池长续航",
+			"src":"data_images/06.png",
+			"price":"1759"
+			},
+			{
+			"id":"sho07",
+			"name":"红米Note 4X ",
+			"src":"data_images/07.png",
+			"price":"999"
+			},
+			{
+			"id":"sho08",
+			"name":"小米5s 3GB+64GB 公开版4G智能手机全金属一体化机身 指纹识别 骁龙821处理器  支持NFC",
+			"src":"data_images/08.png",
+			"price":"1999"
+			}
+		]
+	},
+	"type02":{
+		"name":"苹果",
+		"list":[
+				{
+				"id":"sho01",
+				"name":"iPhone6s Plus 32GB 5.5英寸公开版 ",
+				"src":"data_images/ios01.png",
+				"price":"3999"
+				},
+				{
+				"id":"sho02",
+				"name":"iPhone6 32GB 公开版4G智能手机指纹识别 IOS操作系统 ",
+				"src":"data_images/ios01.png",
+				"price":"2388"
+				},
+				{
+				"id":"sho03",
+				"name":"iPhone7 Plus 5.5英寸 国行公开版【4G+手机节】购机赠送6GB全国通用流量 ",
+				"src":"data_images/ios03.png",
+				"price":"6688"
+				},
+				{
+				"id":"sho04",
+				"name":"iPhone7 Plus 5.5英寸 移动版后置双摄像头 A10芯片 IOS操作系统 ",
+				"src":"data_images/ios04.png",
+				"price":"5588"
+				},
+				{
+				"id":"sho05",
+				"name":"【合约购机】iPhone6 32GB 公开版4G智能手机 指纹识别 IOS操作系统 ",
+				"src":"data_images/ios05.png",
+				"price":"2388"
+				},
+				{
+				"id":"sho06",
+				"name":"【合约购机】苹果iPhone6s 32GB 国行公开版 ",
+				"src":"data_images/ios06.png",
+				"price":"3599"
+				},
+				{
+				"id":"sho07",
+				"name":"【红色特别版】iPhone7 Plus 5.5英寸 国行公开版A10芯片 指纹识别 防溅抗水 IOS操作系统 ",
+				"src":"data_images/ios07.png",
+				"price":"6888"
+				}
+		]
+	}
+}

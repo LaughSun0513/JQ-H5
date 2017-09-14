@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/public.css" />
+		<link rel="stylesheet" href="../css/01header.css" />
+		<link rel="stylesheet" href="../css/footer.css" />
+		<link rel="stylesheet" href="../css/list.css" />
+	</head>
+	<body>
+		<div id="header"></div>
+		<div class="container">
+			<ul class="shoplist">
+				<!--<li>
+					<img src="img/1.jpg" alt="" />
+					<p>￥1999</p>
+					<p>name</p>
+					<button>立即购买</button><button>收藏</button>
+				</li>-->
+			</ul>
+		</div>
+		<div class="footer"></div>
+	</body>
+</html>
+<script src="../js/jquery-1.11.1.min.js"></script>
+<script src="../js/01header2.js"></script>
+<script type="text/javascript">
+	$("#header").load("header.html")
+	$(".footer").load("footer.html")
+	$(function(){
+		$.ajax({
+			type:"get",
+			url:"../data/shop.json",
+			success:function(json){
+				for(var i in json){
+					for(var j in json[i].list){  
+						var ch=json[i].list[j];
+						$(".shoplist").append(`<li>
+								<img src="../data/${ch.src}" alt="" />
+								<p class="p1">￥${ch.price}</p>
+								<p class="p2">${ch.name}</p>
+								<button class="btn1">立即购买</button>
+								<button class="btn2">收藏</button>
+											</li>`)
+					}
+				}
+				$(".btn1").click(function(){
+					location.href="06shopCart_list.html";
+				})
+			}
+		});
+	})
+	
+	
+	</script>

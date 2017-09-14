@@ -1,0 +1,59 @@
+.indexbox {
+  position: relative;
+  width: 1198px;
+  height: 180px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  background: #ddd;
+  overflow: hidden;
+}
+.indexbox .gd_left {
+  width: 28px;
+  height: 35px;
+  background: url("../images/gd.gif") no-repeat left top;
+  position: absolute;
+  left: 0;
+  top: 70px;
+  cursor: pointer;
+  opacity: 0.8;
+  z-index: 999;
+}
+.indexbox .gd_right {
+  width: 28px;
+  height: 35px;
+  background: url("../images/gd.gif") no-repeat right top;
+  position: absolute;
+  right: 0;
+  top: 70px;
+  cursor: pointer;
+  opacity: 0.8;
+  z-index: 999;
+}
+.indexbox .bigbox {
+  width: 2400px;
+  height: 160px;
+}
+.indexbox .bigbox .box {
+  float: left;
+  width: 285px;
+  height: 160px;
+  background: #fff;
+  margin: 7.5px;
+}
+.indexbox .bigbox .box h1 {
+  font-size: 18px;
+  color: #333333;
+  margin-left: 20px;
+}
+.indexbox .bigbox .box h2 {
+  font-size: 14px;
+  color: #666666;
+  margin-left: 20px;
+}
+.indexbox .bigbox .box a {
+  width: 285px;
+  height: 110px;
+}
+.indexbox .bigbox .box a img {
+  float: right;
+}

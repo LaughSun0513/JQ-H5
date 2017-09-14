@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	<link rel="stylesheet" href="../css/public.css" />
+	<link rel="stylesheet" href="../css/footer.css"/>
+	<link rel="stylesheet" href="../css/05register.css" />
+	</head>
+	<body>
+		<div class="header">
+			<div class="top">
+				<img src="../images/register.png" alt="" />
+				<a href="05login.html">[返回]</a>
+			</div>
+		</div>
+		<div class="register_main">
+			<div class="rm_left">
+				<h1>注册</h1>
+				<p>
+					<strong class="blue">温馨提示：</strong>
+					<br />
+					<br />
+					1.注册需填入正确的邮箱地址，邮箱地址注册成功后将作为登录时的用户名。
+					<br />
+					<br />
+					2.系统会在注册后给你填写的邮箱发送注册激活邮件。账户激活后才可登录中国移动网上商城。
+					<br />
+					<br />
+					3.如果您是中国移动用户，可选择使用手机登录，无需重复注册。
+				</p>
+			</div>
+			<form class="rm_right" id="btn" action="03register_success.html">
+				<div class="rm_right_top">
+					<span>尊敬的客户，如果您已经注册中国移动公司网站，您可以直接&nbsp;&nbsp;
+					<a href="05login.html">登录</a></span>	
+				</div>
+				
+				<div class="alert_box email">
+					<div>邮箱</div>
+					<input type="text" name="uname"/><span class="s1"></span>
+					<div class="reg_box1" style="display: none;"></div>
+				</div>
+				
+				<div class="alert_box upwd">
+					<div>设置密码</div>
+					<input type="password" name="upwd"/>
+					<div class="reg_box2" style="display: none;"></div>
+				</div>
+				<div class="qd">
+					<span>密码安全强度</span>
+					<div class="qd_img">
+						<p class="password_strong"></p>
+					</div>
+				</div>
+				
+				<p class="ts">8-16个字符，请使用字母数字或符号的组合密码</p>
+				
+				<div class="alert_box qupwd">
+					<div>确认密码</div>
+					<input type="password"/><span class="s2"></span>
+					<div class="reg_box3" style="display: none;"></div>
+				</div>
+				
+				<div class="alert_box rm_right_yzm">
+					<div>验证码</div>
+					<input type="text" />
+					<span class="random_yzm"></span>
+					<a href="javascript:;" class="btn">换一张</a>
+					<div class="reg_box4" style="display: none;"></div>
+				</div>
+				
+				<div class="read">
+					<input type="checkbox" checked />
+					<span>请阅读</span>
+					<a href="">《中国移动用户注册协议》</a>
+				</div>
+				
+				<input type="submit" value="同意以上条款并注册" class="ty"/>
+				
+			</form>
+		</div>
+		<div class="footer"></div>
+	</body>
+</html>
+<script src="../js/jquery-1.11.1.min.js"></script>
+<script src="../js/cookie.js"></script>
+<script src="../js/05register.js"></script>

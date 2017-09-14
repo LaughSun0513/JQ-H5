@@ -1,0 +1,351 @@
+@charset "utf-8";
+.main {
+  height: 350px;
+  margin-top: 5px;
+}
+.main .m_left {
+  float: left;
+  width: 162px;
+  height: 348px;
+  padding-right: 10px;
+  position: relative;
+}
+.main .m_left ul {
+  width: 156px;
+  height: 348px;
+  overflow: hidden;
+  border: 1px #b7d7ec solid;
+}
+.main .m_left ul li {
+  float: left;
+  width: 152px;
+  height: 48px;
+  border: 2px #b7d7ec solid;
+  border-bottom: none;
+  background: url("../images/menu_jt.gif") no-repeat right center;
+  z-index: 3 ;
+
+}
+.main .m_left ul li:last-child{
+	border-bottom:2px #b7d7ec solid;
+}
+.main .m_left ul li.newCss{
+	width:152px;
+	height:46px;
+	background: #fff;
+	border:2px #ED2668 solid;
+	color: #EB2668;
+}
+.main .m_left ul li i {
+  float: left;
+  width: 25px;
+  height: 30px;
+  margin-top: 7px;
+  margin-left: 10px;
+}
+.main .m_left ul li dl {
+  float: left;
+  width: 105px;
+}
+.main .m_left ul li dl dt {
+  float: left;
+  width: 105px;
+  height: 20px;
+  margin-left: 5px;
+}
+.main .m_left ul li dl dt a {
+  width: 55px;
+  height: 20px;
+  font-size: 15px;
+  color: #0087ce;
+}
+.main .m_left ul li dl dd {
+  float: left;
+  width: 110px;
+  height: 25px;
+  margin-left: 5px;
+  line-height: 25px;
+  font-size: 12px;
+}
+.main .m_left ul li dl dd a {
+  width: 34px;
+  height: 16px;
+  font-size: 12px;
+  color: #0087ce;
+}
+.main .m_left ul li div {
+  width: 761px;
+  height: 348px;
+  border:2px #ccc solid;
+  background: #fff;
+  opacity: .95;
+  z-index: 2;
+  position: absolute;
+  left: 155px;
+  top: 0;
+  display: none;
+}
+.main .m_left ul li div.newCss2{
+ width: 761px;
+  height: 348px;
+	border:2px #EB2668 solid;
+}
+.main .m_left ul li div dl {
+  width: 709px;
+  height: 56px;
+  margin: 5px 20px;
+}
+.main .m_left ul li div dl dt {
+  width: 709px;
+  height: 16px;
+  line-height: 16px;
+  text-align: left;
+  font-size: 12px;
+  font-weight: bold;
+  color: #0183ce;
+}
+.main .m_left ul li div dl dd {
+  width: 709px;
+  min-height: 36px;
+  margin: 5px 0;
+}
+.main .m_left ul li div dl dd a {
+  float: left;
+  width: 100px;
+  height: 16px;
+  margin-top: 3px;
+  border-right: 1px #676767 solid;
+  text-align: center;
+  line-height: 16px;
+}
+.main .m_left ul .active2 {
+  border: 2px #ED2668 solid;
+  border-right: 2px #fff solid;
+  background: #fff;
+}
+.main .m_left ul .m1 i {
+  background: url("../images/shopclass01.gif") no-repeat;
+}
+.main .m_left ul .m2 i {
+  background: url("../images/shopclass02.gif") no-repeat;
+}
+.main .m_left ul .m3 i {
+  background: url("../images/shopclass03.gif") no-repeat;
+}
+.main .m_left ul .m4 i {
+  background: url("../images/shopclass04.gif") no-repeat;
+}
+.main .m_left ul .m5 i {
+  background: url("../images/shopclass05.gif") no-repeat;
+}
+.main .m_left ul .m6 i {
+  background: url("../images/shopclass06.gif") no-repeat;
+}
+.main .m_left ul .m7 i {
+  background: url("../images/shopclass07.gif") no-repeat;
+}
+.main .m_left ul .m1:hover i {
+  background: url("../images/shopclass01_red.gif") no-repeat;
+}
+.main .m_left ul .m2:hover i {
+  background: url("../images/shopclass02_red.gif") no-repeat;
+}
+.main .m_left ul .m3:hover i {
+  background: url("../images/shopclass03_red.gif") no-repeat;
+}
+.main .m_left ul .m4:hover i {
+  background: url("../images/shopclass04_red.gif") no-repeat;
+}
+.main .m_left ul .m5:hover i {
+  background: url("../images/shopclass05_red.gif") no-repeat;
+}
+.main .m_left ul .m6:hover i {
+  background: url("../images/shopclass06_red.gif") no-repeat;
+}
+.main .m_left ul .m7:hover i {
+  background: url("../images/shopclass07_red.gif") no-repeat;
+}
+.main .m-center {
+  float: left;
+  width: 740px;
+  height: 350px;
+  z-index: 1;
+  overflow: hidden;
+  position: relative;
+}
+.main .m-center .m-center_left {
+  cursor: pointer;
+  width: 30px;
+  height: 70px;
+  position: absolute;
+  left: 0;
+  top: 140px;
+  background: #666;
+  opacity: .7;
+  font-size: 30px;
+  color: #fff;
+  line-height: 70px;
+  text-align: center;
+  z-index: 999;
+}
+.main .m-center .m-center_right {
+  cursor: pointer;
+  width: 30px;
+  height: 70px;
+  position: absolute;
+  right: 0;
+  top: 140px;
+  background: #666;
+  opacity: .7;
+  font-size: 30px;
+  color: #fff;
+  line-height: 70px;
+  text-align: center;
+  z-index: 999;
+}
+.main .m-center ul {
+  position: absolute;
+  width: 9360px;
+  height: 350px;
+  overflow: hidden;
+}
+.main .m-center ul li {
+  float: left;
+  height: 350px;
+}
+.main .m-center ul li img {
+  display: block;
+  width: 780px;
+  height: 385px;
+  z-index: 0;
+}
+.main .m-center ol {
+  width: 260px;
+  height: 15px;
+  position: absolute;
+  bottom: 5px;
+  right: 240px;
+  z-index: 2;
+}
+.main .m-center ol li {
+  float: left;
+  width: 15px;
+  height: 15px;
+  margin: 0 3px;
+  border-radius: 50%;
+  background-color: #ccc;
+  cursor: pointer;
+}
+.main .m-center ol li:hover {
+  background: deeppink;
+}
+.main .m-center ol li.active {
+  background: deeppink;
+}
+.main .m_right {
+  float: right;
+  margin-left: 10px;
+  width: 275px;
+  height: 348px;
+  border: 1px #b7d7ec solid;
+}
+.main .m_right .m_right_top {
+  height: 165px;
+  width: 275px;
+  overflow: hidden;
+  padding-top: 10px;
+}
+.main .m_right .m_right_top dl {
+  float: left;
+  width: 60px;
+  height: 60px;
+  margin: 10px 15px;
+}
+.main .m_right .m_right_top dl dt {
+  width: 32px;
+  margin-left: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.main .m_right .m_right_top dl dt a {
+  display: block;
+  width: 35px;
+  height: 35px;
+}
+.main .m_right .m_right_top dl dt a img:hover {
+  width: 35px;
+  height: 35px;
+}
+.main .m_right .m_right_top dl dd {
+  width: 77px;
+  color: #666;
+  font-size: 14px;
+  text-align: center;
+}
+.main .m_right .m_right_bottom {
+  width: 217px;
+  height: 175px;
+  padding: 0 30px;
+}
+.main .m_right .m_right_bottom .cz {
+  width: 237px;
+  overflow: hidden;
+}
+.main .m_right .m_right_bottom .cz a {
+  float: left;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+}
+.main .m_right .m_right_bottom .cz span {
+  float: right;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  color: orangered;
+  margin-right: 20px;
+}
+.main .m_right .m_right_bottom input[type="text"] {
+  width: 217px;
+  height: 35px;
+  border: 1px #ccc solid;
+  border-radius: 5px;
+}
+.main .m_right .m_right_bottom ::-webkit-input-placeholder {
+  color: #ccc;
+}
+.main .m_right .m_right_bottom .yuan {
+  width: 200px;
+  margin: 10px auto;
+  overflow: hidden;
+}
+.main .m_right .m_right_bottom .yuan a {
+  float: left;
+  margin-right: 3px;
+  width: 45px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  border: 1px #CCC solid;
+  border-radius: 3px;
+  color: #666;
+  font-size: 14px;
+}
+.main .m_right .m_right_bottom .yuan a:hover {
+  background: deeppink;
+  color: #fff;
+}
+.main .m_right .m_right_bottom input[type="button"] {
+  width: 90px;
+  height: 35px;
+  background: #1E90FF;
+  border: none;
+  border-radius: 3px;
+  margin: 5px 65px 0;
+  color: #fff;
+}

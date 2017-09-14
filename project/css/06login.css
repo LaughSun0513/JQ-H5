@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+.header {
+  width: 940px;
+  height: 57px;
+  padding: 53px 30px 19px;
+  margin: 0 auto;
+}
+.header .top {
+  width: 960px;
+  height: 50px;
+  position: relative;
+}
+.header .top img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.header .top a {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: #007bc7;
+  text-decoration: none;
+  font-size: 12px;
+}
+.main {
+  width: 998px;
+  height: 413px;
+  margin: 0 auto;
+  background: url("../images/bg_register.png") no-repeat center;
+  margin-bottom: 48px;
+  position: relative;
+}
+.main .login_box {
+  width: 324px;
+  height: 380px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+.main .login_box .login_tab {
+  position: absolute;
+  width: 324px;
+  height: 41px;
+  border-top: 1px #ccc solid;
+  border-left: 1px #ccc solid;
+  overflow: hidden;
+}
+.main .login_box .login_tab li {
+  float: left;
+  width: 161px;
+  height: 40px;
+  line-height: 40px;
+  border-right: 1px #ccc solid;
+  text-align: center;
+}
+.main .login_box .login_message {
+  position: absolute;
+  bottom: 0;
+  width: 322px;
+  height: 310px;
+  padding: 20px 0 10px;
+  border: 1px #ccc solid;
+  border-top: none;
+  background: #fff;
+}
+.main .login_box .login_message p {
+  text-align: center;
+  font-size: 14px;
+  height: 22px;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+.main .login_box .login_message p label {
+  margin: 0 20px;
+}
+.main .login_box .login_message p label input {
+  margin-right: 5px;
+}
+.main .login_box .login_message .Inter_user {
+  height: 50px;
+  position: relative;
+  z-index: 998;
+}
+.main .login_box .login_message .Inter_user .reg_box5 {
+  position: absolute;
+  width: 294px;
+  height: 20px;
+  line-height: 20px;
+  background: #ffebec;
+  color: #e6393d;
+  border: 1px #ffbdbf solid;
+  top: 48px;
+  text-align: center;
+  z-index: 999;
+}
+.main .login_box .login_message .Inter_user .reg_box6 {
+  position: absolute;
+  width: 294px;
+  height: 20px;
+  line-height: 20px;
+  background: #ffebec;
+  color: #e6393d;
+  border: 1px #ffbdbf solid;
+  top: 48px;
+  text-align: center;
+  z-index: 999;
+}
+.main .login_box .login_message .alert_box {
+  width: 275px;
+  height: 50px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 10px 0 10px 26px;
+}
+.main .login_box .login_message .alert_box div {
+  float: left;
+  width: 84px;
+  height: 36px;
+  line-height: 38px;
+  background: #f1f1f1;
+  text-align: center;
+  border: 1px #ccc solid;
+  border-right: none;
+}
+.main .login_box .login_message .alert_box input {
+  width: 168px;
+  height: 26px;
+  padding: 5px 10px;
+  border: 1px #ccc solid;
+  border-left: none;
+}
+.main .login_box .login_message .dx input {
+  width: 80px;
+  height: 26px;
+  padding: 5px 10px;
+}
+.main .login_box .login_message .login_btn {
+  width: 265px;
+  height: 38px;
+  padding: 1px 6px;
+  margin: 10px 0 0 24px;
+  background: #1796dd;
+  color: #fff;
+  text-align: center;
+  line-height: 38px;
+  border: none;
+  border-radius: 3px;
+  margin-top: 40px;
+}
+.main .login_box .login_message .jz {
+  float: right;
+  height: 22px;
+  line-height: 22px;
+  text-align: right;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.main .login_box .login_message .jz input {
+  float: left;
+  margin-top: 0px;
+  height: 22px;
+  line-height: 22px;
+  margin-right: 3px;
+}
+.main .login_box .login_message .jz input span {
+  display: block;
+  margin-bottom: 3px;
+}
+.main .login_box .login_message .jz a {
+  color: #007bc7;
+  height: 20px;
+  line-height: 20px;
+  text-decoration: none;
+}
+.bg {
+  background: #fff;
+}
+.login_footer {
+  width: 1000px;
+  height: 94px;
+  padding: 20px 0 0 0;
+  border-top: 1px #dadada solid;
+  text-align: center;
+  margin: 0 auto;
+}

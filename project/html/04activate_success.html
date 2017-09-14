@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/public.css" />
+		<link rel="stylesheet" href="../css/footer.css"/>
+		<style type="text/css">
+			.header {
+			  width: 940px;
+			  height: 57px;
+			  padding: 53px 30px 19px;
+			  margin: 0 auto;
+			}
+			.header .top {
+			  width: 960px;
+			  height: 50px;
+			  position: relative;
+			}
+			.header .top img {
+			  position: absolute;
+			  left: 0;
+			  top: 0;
+			}
+			.header .top a {
+			  position: absolute;
+			  right: 0;
+			  bottom: 0;
+			  color: #007bc7;
+			  text-decoration: none;
+			  font-size: 12px;
+			}
+			.success_main {
+			  width: 1000px;
+			  height: 250px;
+			  padding-top: 50px;
+			  margin: 0 auto;
+			  text-align: center;
+			  border-top: 1px #ccc solid;
+			  border-bottom: 1px #ccc solid;
+			  font-size: 12px;
+			}
+			.success_main p {
+			  height: 35px;
+			  margin: 10px;
+			  line-height: 35px;
+			}
+			.success_main p span {
+			  margin-top: 3px;
+			}
+			.success_main p input {
+			  width: 207px;
+			  height: 34px;
+			  background: url("../images/activate_success.png") no-repeat center top;
+			  border: none;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<div class="top">
+				<img src="../images/register.png" alt="" />
+				<a href="03register_success.html">[返回]</a>
+			</div>
+		</div>
+		<div class="success_main">
+			<p class="text">
+				<img src="../images/success_register.png" alt="" />
+				<span>恭喜，激活成功</span>
+			</p>
+			<p class="ts">
+				您登录中国移动网上商城的用户名为：
+				<span class="success_email" style="color:#1E90FF"></span>
+			</p>
+			<p>
+				您可以使用此用户名享受便捷的中国移动网上商城购物乐趣
+				<a href="01index.html" style="color:#1E90FF">去商城看看</a>
+			</p>
+			<p>
+				<input type="button" />
+			</p>
+			
+		</div>
+		<div class="footer"></div>
+	</body>
+</html>
+<script src="../js/jquery-1.11.1.min.js"></script>
+<script src="../js/cookie.js"></script>
+<script>
+	$(".footer").load("footer.html");
+	var cookie_email = getCookie("email");
+	$(".success_email").html(cookie_email);
+		$(":button").on({
+		mouseover:function(){
+			$(this).css("background","url('../images/activate_success.png') no-repeat center bottom")
+		},
+		mouseout:function(){
+			$(this).css("background","url('../images/activate_success.png') no-repeat center top")
+		},
+		click:function(){
+			location.href="05login.html";
+		}
+		
+	})
+</script>

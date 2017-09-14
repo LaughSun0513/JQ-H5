@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<link rel="stylesheet" href="../css/06login.css" />
+	<link rel="stylesheet" href="../css/public.css" />
+	<link rel="stylesheet" href="../css/footer.css"/>
+	<body>
+		<div class="header" id="login_header">
+			<div class="top">
+				<img src="../images/logo.png" alt="" />
+				<a href="01index.html">[返回]</a>
+			</div>
+		</div>
+		
+		<div class="main">
+			<div class="login_box">
+				<ul class="login_tab">
+					<li class="bg">手机号登录</li>
+					<li>互联网用户登录</li>
+				</ul>
+				
+				<form class="login_message">
+					<p>
+						<label><input type="radio"  class="fw" name="yz" checked/>服务密码</label>	
+						<label><input type="radio"  class="yzm" name="yz"/>短信验证码</label>
+					</p>
+					
+					<div class="alert_box phone_user">
+						<div>手机号</div>
+						<input type="text" placeholder="请输入移动手机号"/>
+					</div>
+					
+					<div class="alert_box phone_user">
+						<div>服务密码</div>
+						<input type="text" />
+					</div>
+					
+					<div class="alert_box dx" style="display: none;">
+						<div>短信随机码</div>
+						<input type="text" />
+						<span>点击获取</span>
+					</div>
+					
+					<div class="alert_box Inter_user" style="display: none;">
+						<div>用户名</div>
+						<input type="text" id="uemail"/>
+						<p class="reg_box5" style="display: none;"></p>
+					</div>
+					
+					<div class="alert_box Inter_user" style="display: none;">
+						<div>密码</div>
+						<input type="password" id="upwd"/>
+						<p class="reg_box6" style="display: none;"></p>
+					</div>
+					
+					<input type="button" value="登录" class="login_btn"/>
+					
+					<div class="jz">
+						<input type="checkbox"/><span>记住用户名</span>
+						<a href="02register.html">免费注册</a>
+					</div>
+				</form>
+				
+			</div>
+
+		</div>
+		<div class="login_footer"></div>
+	</body>
+</html>
+<script src="../js/jquery-1.11.1.min.js"></script>
+<script src="../js/cookie.js"></script>
+<script src="../js/06login.js"></script>
+

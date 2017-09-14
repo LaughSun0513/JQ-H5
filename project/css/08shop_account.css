@@ -1,0 +1,186 @@
+.js_title {
+  height: 55px;
+  border-bottom: 2px #0085D0 solid;
+}
+.js_title span {
+  float: left;
+  font-size: 16px ;
+  color: #0085d0;
+  font-weight: bolder;
+}
+.js_tbody {
+  display: flex;
+  justify-content: space-around;
+  height: 33px;
+  font-size: 12px;
+  color: #333;
+}
+.js_tbody dl {
+  width: 1200px;
+  background: #f4f4f4;
+  height: 33px;
+  font-weight: bold;
+}
+.js_tbody dl dt {
+  float: left;
+  margin-left: 30px;
+  width: 445px;
+  height: 33px;
+}
+.js_tbody dl dt input {
+  float: left;
+  margin-top: 10px;
+}
+.js_tbody dl dt span {
+  float: left;
+  height: 33px;
+  line-height: 33px;
+}
+.js_tbody dl dt em {
+  float: left;
+  margin-left: 100px;
+  width: 215px;
+  height: 33px;
+  line-height: 33px;
+  font-style: normal;
+}
+.js_tbody dl dd {
+  float: right;
+  width: 550px;
+  height: 33px;
+}
+.js_tbody dl dd span {
+  float: left;
+  width: 130px;
+  height: 33px;
+  line-height: 33px;
+}
+.js_make {
+  display: flex;
+  justify-content: space-between;
+  height: 63px;
+  background: #f4f4f4;
+}
+.js_make dl {
+  width: 1200px;
+  height: 63px;
+  font-size: 12px;
+}
+.js_make dl dt {
+  float: left;
+  margin-left: 30px;
+  width: 300px;
+  height: 63px;
+  line-height: 63px;
+  letter-spacing: 2px;
+}
+.js_make dl dt span {
+  margin-left: 5px;
+}
+.js_make dl dt a {
+  margin-left: 10px;
+}
+.js_make dl div {
+  float: right;
+  width: 550px;
+  height: 63px;
+  line-height: 63px;
+}
+.js_make dl div dd {
+  float: left;
+  width: 130px;
+  font-weight: bolder;
+}
+.js_make dl div dd a {
+  display: block;
+  width: 160px;
+  height: 62px;
+  background: #ed2668;
+  color: #fff;
+  font-size: 24px;
+  line-height: 62px;
+  text-align: center;
+}
+#js_main {
+  min-height: 121px;
+  margin: 30px auto;
+}
+#js_main dl {
+  width: 1200px;
+  height: 121px;
+  border: 1px #ccc solid;
+}
+#js_main dl .shop_left {
+  float: left;
+  width: 550px;
+  height: 121px;
+  margin-left: 30px;
+}
+#js_main dl .shop_left input {
+  float: left;
+  margin-top: 50px;
+  width: 20px;
+  height: 20px;
+}
+#js_main dl .shop_left img {
+  float: left;
+  width: 91px;
+  height: 91px;
+  margin-top: 12px;
+  margin-left: 10px;
+  border: 1px #ccc solid;
+}
+#js_main dl .shop_left .shop_name {
+  float: left;
+  width: 240px;
+  height: 121px;
+  line-height: 47px;
+  font-size: 12px;
+  color: #1E90FF;
+}
+#js_main dl .shop_left .shop_color {
+  float: left;
+  width: 50px;
+  font-size: 12px;
+  color: #666;
+  line-height: 121px;
+}
+#js_main dl .shop_left .shop_memory {
+  float: left;
+  width: 30px;
+  font-size: 12px;
+  color: #666;
+  line-height: 121px;
+}
+#js_main dl .shop_right {
+  float: right;
+  width: 600px;
+}
+#js_main dl .shop_right dd {
+  float: left;
+  width: 150px;
+  height: 121px;
+  line-height: 121px;
+  color: #666;
+  text-align: center;
+}
+#js_main dl .shop_right dd input {
+  float: left;
+  width: 42px;
+  height: 26px;
+  text-align: center;
+  margin-top: 50px;
+  border-top: 1px #ccc solid;
+  border-bottom: 1px #ccc solid;
+}
+#js_main dl .shop_right dd button {
+  float: left;
+  width: 19px;
+  height: 28px;
+  background: #dadada;
+  border: none;
+  margin-top: 50px;
+  text-align: center;
+  border-top: 1px #ccc solid;
+  border-bottom: 1px #ccc solid;
+}

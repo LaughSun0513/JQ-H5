@@ -1,0 +1,112 @@
+.h3 {
+  color: #0085d0;
+  font-size: 12px;
+  padding: 0 0 0 20px;
+  margin: 0;
+  height: 20px;
+}
+#pink {
+  background: #efefef;
+}
+#pink h1 {
+  font-size: 18px;
+  color: #ff1493;
+  margin-left: 20px;
+  padding-top: 8px;
+}
+.pro {
+  height: 430px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.pro .pro_title {
+  width: 1160px;
+  height: 48px;
+  padding: 0 20px;
+  border: 1px #ccc solid;
+}
+.pro .pro_title span {
+  float: left;
+  width: 45px;
+  height: 48px;
+  line-height: 48px;
+  font-size: 15px;
+  color: #0085d0;
+  font-weight: bold;
+}
+.pro .pro_title a {
+  float: right;
+  width: 67px;
+  height: 48px;
+  line-height: 48px;
+  color: #ccc;
+  font-size: 14px;
+}
+.pro .pro_img {
+  height: 380px;
+  overflow: hidden;
+}
+.pro .pro_img .pro_box {
+  width: 298px;
+  height: 377px;
+  border: 1px #ccc solid;
+  float: left;
+}
+.pro .pro_img .pro_box ul {
+  width: 298px;
+  height: 188px;
+}
+.pro .pro_img .pro_box ul h1 {
+  font-size: 18px;
+  color: #333333;
+  margin-left: 20px;
+  padding-top: 8px;
+}
+.pro .pro_img .pro_box ul h2 {
+  font-size: 14px;
+  color: #666666;
+  margin: 4px 0 4px 20px;
+}
+.pro .pro_img .pro_box ul a {
+  display: block;
+  width: 296px;
+  height: 128px;
+}
+.pro .pro_img .pro_box ul a img {
+  float: right;
+  height: 128px;
+}
+.pro .h h2 {
+  font-size: 14px;
+  color: #666666;
+  margin: 4px 0 4px 20px;
+}
+.pro .h h3 {
+  color: #0085d0;
+  font-size: 12px;
+  padding: 0 0 0 20px;
+  margin: 0;
+  height: 20px;
+}
+.pro .h a {
+  display: block;
+  width: 298px;
+  overflow: hidden;
+}
+.pro .h a span {
+  float: left;
+  height: 28px;
+  color: #999;
+  font-size: 11px;
+  padding: 10px 0 0 0;
+  margin-left: 20px;
+  text-decoration: line-through;
+}
+.pro .a {
+  height: 272px;
+  width: 298px;
+  padding-top: 20px;
+}
+.pro .a img {
+  float: right;
+}

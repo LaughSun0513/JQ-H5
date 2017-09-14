@@ -1,0 +1,274 @@
+.pos(r){
+    position:relative;
+}
+.pos(a){
+    position: absolute;
+}
+.notice{
+    height:38px;
+    border:1px #ccc solid;
+    margin-bottom: 10px;
+    .laba{
+       
+       float: left;
+       width:60px;
+       height:38px; 
+       line-height: 38px;
+       padding-left: 10px;
+       img{
+           float: left;
+           width:22px;
+           height:15px;
+           font-size: 0;
+           vertical-align: middle;
+           line-height: 38px;
+           margin-top: 12px;
+       }
+       a{
+           float: right;
+           width:30px;
+           height:38px;
+           color:#666;
+           line-height: 38px;
+           font-size:15px;
+       }
+    }
+    .notice_box{
+        float: left;
+        width:1000px;
+        height:38px;
+        overflow: hidden;
+        li{
+            float: left;
+            width:420px;
+            height:38px;
+            line-height: 38px;
+            margin-left:15px;
+            padding:0 30px;
+            a{
+                float:left;
+                width:315px;
+                color: #0085d0;
+                float: left;
+                overflow: hidden;
+                text-overflow:ellipsis;
+                white-space:nowrap;
+            }
+            span{
+                float: right;
+                color:#ccc;
+            }
+        }
+    }
+    .notice_direction{
+        width:30px;
+        height:38px;
+        line-height: 38px;
+        float: right;
+        .notice_left{
+            color:#3580ba;
+            text-decoration: none;
+            font-size:15px;
+            float: left;
+            height:38px;
+            margin-right:3px;
+        }
+        .notice_right{
+            color:#3580ba;
+            text-decoration: none;
+            font-size:15px;
+            float: right;
+            height:38px;
+            margin-right:3px;
+        }
+    }
+}
+.gzdt{
+    height:96px;
+    border: 1px #ccc solid;
+    margin-bottom: 10px;
+    .gzdt_title{
+        width:1160px;
+        height:29px;
+        padding:5px 20px;
+        img{
+            float: left;
+        }
+        a{
+            float:right;
+            color:#ccc;
+            font-size:14px;
+        }
+    }
+    .list{
+        width:1200px;
+        height:59px;
+        li{
+            float: left;
+            width:540px;
+            height:29.5px;
+            padding:0 10px 0 50px;
+            a{
+                color:#666;
+                float: left;
+                width:335px;
+                overflow: hidden;
+                text-overflow:ellipsis;
+                white-space:nowrap;
+                font-size:12px;
+            }
+            span{
+                float: right;
+                font-size:12px;
+                color:#d5cccc;
+            }
+        }
+    }
+}
+
+
+.help{
+    height:175px;
+    width:1040px;
+    padding:35px 80px;
+    border:1px #ccc solid;
+    .help_list{
+        width:200px;
+        float: left;
+        span{
+            float:left;
+            width:200px;
+            color:#666;
+            font-size:15px;
+            font-weight: bold;
+            font-family: "微软雅黑";
+            margin-bottom: 5px;
+            
+        }
+        a{
+            float:left;
+            width:200px; 
+            font-size:13px;
+            margin:3px 0;
+            
+        }
+    }
+}
+.center{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin:5px 0;
+}
+.footer{
+    height:180px;
+    margin-top:10px;
+    font-size: 12px;
+    .footer_1{
+        .center; 
+        width: 100%;
+    }
+    .footer_2{
+        .center;
+    }
+    .footer_3{
+        .center;
+    }
+    .footer_4{
+        .center;
+    }
+    .footer_5{
+        width: 280px;
+        margin: 0 auto;
+        img {
+            display: block;
+            float: left;
+        }
+        a{
+            display: block;
+            height: 40px;
+            line-height: 40px;
+            img {
+                margin: 7px 5px 0 5px;
+            }
+            
+        }
+    }
+}
+.fc1{
+    img:nth-child(1){
+        position:fixed;
+        right:0;
+        bottom:160px;
+    }
+    img:nth-child(2){
+        position:fixed;
+        right:0;
+        bottom:20px;
+        margin-right: -85px;
+        z-index: 999;
+    }
+    
+}
+.fc2{
+    img:nth-child(1){
+        position:fixed;
+        right:0;
+        bottom:20px;
+        z-index:998;
+        margin-right:-25px;
+    }
+    img:nth-child(2){
+        position:fixed;
+        right:0;
+        bottom:50px;
+        z-index:998;
+        margin-right:-25px;
+    }
+    img:nth-child(3){
+        position:fixed;
+        right:0;
+        bottom:80px;
+        z-index:998;
+        margin-right:-25px;
+    }
+}
+body{
+    .pos(r);
+}
+.floor{
+    width:36px;
+    height:410px;
+    position: fixed;
+    bottom:100px;
+    right:50px;
+   
+    li{
+        display: block;
+        width:36px;
+        height:36px;
+        margin-bottom: 5px;
+        background: url("../images/floor.png") top left;
+    }
+    li:hover{
+        cursor: pointer;
+    }
+    li:nth-child(1){background-position-y:-40*8px;} 
+    li:nth-child(3){background-position-y:-40*7px;} 
+    li:nth-child(4){background-position-y:-40px;} 
+    li:nth-child(5){background-position-y:-40*2px;}
+    li:nth-child(6){background-position-y:-40*3px;}
+    li:nth-child(7){background-position-y:-40*4px;}
+    li:nth-child(8){background-position-y:-40*5px;}
+    li:nth-child(9){background-position-y:-40*6px;}
+    
+    li:nth-child(1):hover{background-position-y:-40*8px;background-position-x: -36px;}
+    li:nth-child(2):hover{background-position-x: -36px;background-position-x: -36px;}
+    li:nth-child(3):hover{background-position-y:-40*7px;background-position-x: -36px;} 
+    li:nth-child(4):hover{background-position-y:-40px;background-position-x: -36px;} 
+    li:nth-child(5):hover{background-position-y:-40*2px;background-position-x: -36px;}
+    li:nth-child(6):hover{background-position-y:-40*3px;background-position-x: -36px;}
+    li:nth-child(7):hover{background-position-y:-40*4px;background-position-x: -36px;}
+    li:nth-child(8):hover{background-position-y:-40*5px;background-position-x: -36px;}
+    li:nth-child(9):hover{background-position-y:-40*6px;background-position-x: -36px;}
+}

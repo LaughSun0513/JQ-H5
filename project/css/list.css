@@ -1,0 +1,59 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    ul li{
+        list-style: none;
+    }
+    .container {
+        width:1200px;
+        min-height：323px;
+        margin:0 auto;
+    }
+    .container ul{
+        width:1200px;
+        min-height:323px;
+    }
+    .container ul li{
+        float: left;
+        width: 197px;
+        height: 323px;
+        border:1px #ccc solid;
+    }
+    .container ul li:hover{;
+        border:1px solid red;
+    }
+    .shoplist img{
+        padding-top: 26px;
+        height: 170px;
+        overflow: hidden;
+        text-align: center;
+    }
+    .shoplist .p1{
+        line-height: 30px;
+        width: 158px;
+        margin: 0 auto;
+        font-size: 20px;
+        font-family: tahoma;
+        color: red;
+        text-align: center;
+        padding-left: 0;
+    }
+    .shoplist .p2{
+        line-height: 20px;
+        width: 158px;
+        margin: 0 auto;
+        height: 40px;
+        overflow: hidden;
+        font-size: 12px;
+        text-align:left;
+        word-wrap: break-word;
+        padding-left: 12px;
+        color: #aaa;
+    }
+    .shoplist button{
+        color: #666;
+        margin-right:5px;
+        float: left;
+        margin-left: 25px;
+    }
