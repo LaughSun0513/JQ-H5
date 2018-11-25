@@ -1,2 +1,2 @@
-# 01-jquery-project
+# jquery-project
 jquery-project
